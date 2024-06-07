@@ -6,7 +6,7 @@
     <title>Itinarary page</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="./style3.css"/>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     
 </head>
@@ -24,7 +24,7 @@
             <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
               <li class="nav-link px-2 link-secondary">SmartDestina</li>
               <li><a href="index.html" class="nav-link px-2 link-body-emphasis">My Account</a></li>
-              <li><a href="#" class="nav-link px-2 link-body-emphasis">Home</a></li>
+              <li><a href="index.html" class="nav-link px-2 link-body-emphasis">Home</a></li>
               <li><a href="#" class="nav-link px-2 link-body-emphasis">About</a></li>
             </ul>
     
@@ -48,16 +48,26 @@
         </div>
       </header>
 
+    <section class="big-container">
+      <section class="container">
+        <div class="image" >
+          <img src="side1.avif" class="img" height="540px" width="740px" >
+          <div class="center">"Take only memories,<br> leave only footprints"</div>
+        </div>
+      </section>
+      <div class="whole-container">
+    <section class="container">
       <div class="heading">
-        <h1>Find Your perfect Trip</h1><br>
+        <h2>Find Your perfect Trip</h2><br>
       </div>
+    </section>
       <section class="container">
         <form name="ItiForm"  method="get" id="forms">
 
           <div class="form-grp">
-            <label>
-                <input type="radio"  style="margin: 0px 10px 0px 10px;" required><span>Round Trip</span>
-                <input type="radio"  style="margin: 0px 10px 0px 10px;" required><span>One Way</span>
+            <label style="font-size: 20px;">
+                <input type="radio"  style="margin: 0px 10px 0px 10px;"  required>Round Trip
+                <input type="radio"  style="margin: 0px 10px 0px 10px;" required>One Way
             </label>
           </div>
           <small></small>
@@ -66,14 +76,14 @@
           
             
             
-              <div class="form-group col-md-4" style="display: inline-flex;">
+              <div class="abc" style="display: inline-flex;">
                 <div class="container">
                     
-                        <label for="inputState">State</label>
+                        <label for="inputState" class="place">State</label>
                     <!-- <i class="bi bi-geo-fill"></i><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-fill" viewBox="0 0 16 16">
                         <path fill-rule="evenodd" d="M4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999zm2.493 8.574a.5.5 0 0 1-.411.575c-.712.118-1.28.295-1.655.493a1.3 1.3 0 0 0-.37.265.3.3 0 0 0-.057.09V14l.002.008.016.033a.6.6 0 0 0 .145.15c.165.13.435.27.813.395.751.25 1.82.414 3.024.414s2.273-.163 3.024-.414c.378-.126.648-.265.813-.395a.6.6 0 0 0 .146-.15l.015-.033L12 14v-.004a.3.3 0 0 0-.057-.09 1.3 1.3 0 0 0-.37-.264c-.376-.198-.943-.375-1.655-.493a.5.5 0 1 1 .164-.986c.77.127 1.452.328 1.957.594C12.5 13 13 13.4 13 14c0 .426-.26.752-.544.977-.29.228-.68.413-1.116.558-.878.293-2.059.465-3.34.465s-2.462-.172-3.34-.465c-.436-.145-.826-.33-1.116-.558C3.26 14.752 3 14.426 3 14c0-.599.5-1 .961-1.243.505-.266 1.187-.467 1.957-.594a.5.5 0 0 1 .575.411"/>
                       </svg> -->
-                <select class="form-control" id="inputState">
+                <select class="form-control" id="inputState" style="margin-right: 2vh;" >
                                     <option value="SelectState">Select State</option>
                                     <option value="Andra Pradesh">Andra Pradesh</option>
                                     <option value="Arunachal Pradesh">Arunachal Pradesh</option>
@@ -114,12 +124,21 @@
                                     <option value="Pondicherry">Pondicherry</option>
                                   </select>
               </div>
-              <div class="form-group col-md-4">
-                <label for="inputDistrict">District</label>
+              
+              <div class="form-group col-md-4" style="margin-right: 2vh;">
+                <label for="inputDistrict" class="place">District</label>
                 <select class="form-control" id="inputDistrict">
                     <option value="">-- select one -- </option>
                 </select>
               </div>
+
+              <div class="form-group col-md-4">
+                <label for="inputPlace" class="place">Place to visit</label>
+                <select class="form-control" id="inputPlace">
+                    <option value="">-- select one -- </option>
+                </select>
+              </div>
+
         </div>
         
          
@@ -129,11 +148,11 @@
          <div class="form-grp" style="display: inline-flex;">
             <div class="container">
             <label for="date" class="label">Departing</label><br>
-            <input type="date" required>
+            <input type="date" class="datetime" required>
             </div>
             <div class="container">
                 <label for="date" class="label">Returning</label><br>
-                <input type="date" required>
+                <input type="date" class="datetime" required>
             </div>
          </div>
          <small></small>
@@ -145,24 +164,26 @@
             </div>
             <div class="form-grp" style="display: inline-flex;">
                 <div class="container">
-                    <label for="passengers" class="label">Adult(s)(>18yrs)</label><br>
-                    <input type="number" required>
+                    <label for="passengers" class="label" style="font-size: 16px;">Adult(s)(>18yrs)</label><br>
+                    <input type="number" class="pass" required>
             </div>
             <div class="container">
-                <label for="passengers" class="label">Child(ren)(2-18yrs)</label><br>
-                <input type="number" required>
+                <label for="passengers" class="label" style="font-size: 16px;">Child(ren)(2-18yrs)</label><br>
+                <input type="number" class="pass" required>
             </div>
             <div class="container">
-                <label for="passengers" class="label">Infant(s)(<2yrs)</label><br>
-                <input type="number" required>
+                <label for="passengers" class="label" style="font-size: 16px;">Infant(s)(<2yrs)</label><br>
+                <input type="number" class="pass" required>
             </div>
          </div>
-         
+         <br>
          <div class="container">
-            <input type="submit">
+            <input type="submit" class="submit">
          </div>
         </form>
       </section>
+    </div>
+  </section>
       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
@@ -171,6 +192,9 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
       <script src="script3.js"></script>
+      <script src="script4.js"></script>
       
 </body>
 </html>
+
+
