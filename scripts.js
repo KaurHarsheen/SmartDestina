@@ -152,8 +152,8 @@ function confirmpass(confirmpassword) {
     
         // submit to the server if the form is valid
         if (isFormValid) {
-           if(!alert('Form submitted successfully!')){window.location.reload();}
-           return true;
+          window.location.href="index3.html";
+           
         }
        
     });
