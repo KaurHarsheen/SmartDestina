@@ -200,127 +200,125 @@ SNO,State,City,Name,Type,WeeklyOff,Significance,visiting_time,Review,visiting_hr
 198,Jammu and Kashmir,Jammu,Vaishno Devi,Temple,no,Religious,All,0.55,5,4.7,0
 199,Jammu and Kashmir,Udhampur,Patnitop Height,Hill,no,Recreational,All,0.01,2,4.1,0
 200,Jammu and Kashmir,Anantnag,Amarnath Cave,Temple,no,Religious,All,0.11,6,4.5,0
-201,Ladakh,Leh,Thiksey Monastery,Monastery,no,Religious,All,0.05,1.5,4.7,20
-202,Ladakh,Nubra Valley,Nubra Valley,Valley,no,Nature,All,0.1,2,4.5,0
-203,Ladakh,Kargil,Kargil War Memorial,War Memorial,no,Historical,All,0.011,1,4.8,0
-204,Ladakh,Diskit,Diskit Monastery,Monastery,no,Religious,Morning,0.015,1,4.7,20
-205,Jammu and Kashmir,Kishtwar,Kishtwar National Park,National Park,no,Wildlife,All,0.01,3,4.3,100
-206,Ladakh,Hemis,Hemis National Park,National Park,no,Wildlife,All,0.02,4,4.4,20
-207,Ladakh,Dras,Dras War Memorial,War Memorial,no,Historical,All,0.012,1,4.8,0
-208,Ladakh,Leh,Magnetic Hill,Gravity Hill,no,Nature,All,0.1,0.5,3.7,0
-209,Ladakh,Leh,Khardung La Pass,Hill,no,Adventure,Afternoon,0.05,1,4.5,0
-210,Ladakh,Leh,Thiksey Monastery,Monastery,no,Religious,All,0.05,1.5,4.7,30
-211,Uttar Pradesh,Vrindavan,Prem Mandir,Temple,no,Religious,Evening,0.49,1.5,4.8,0
-212,Uttar Pradesh,Porbandar,Kirti Mandir,Memorial,no,Historical,Morning,0.03,1,4.8,0
-213,Uttar Pradesh,Mathura,Nand Gaon,Village,no,Cultural,Morning,0.01,1,4.1,0
-214,Uttar Pradesh,Mathura,Barsana Mandir,Temple,no,Religious,Morning,0.1,1,4.8,0
-215,West Bengal,Darjeeling,Tiger Hill,Sunrise Point,no,Nature,All,0.025,1,4.5,0
-216,West Bengal,Siliguri,Jaldapara National Park,Wildlife Sanctuary,no,Wildlife,All,0.035,3,4.4,250
-217,West Bengal,Sundarbans,Sundarbans National Park,National Park,no,Wildlife,All,0.065,4,4.4,60
-218,West Bengal,Digha,Digha Beach,Beach,no,Recreational,Morning,0.09,1.5,4.5,0
-219,West Bengal,Murshidabad,Hazarduari Palace,Palace,Friday,Historical,Morning,0.18,1.5,4.5,10
-220,West Bengal,Bolpur,Kankalitala Temple,Temple,no,Religious,All,0.045,0.5,4.7,0
-221,West Bengal,Hooghly,Hangseswari Temple,Temple,no,Architectural,All,0.07,0.5,4.6,0
-222,West Bengal,Jalpaiguri,Gorumara National Park,National Park,no,Wildlife,All,0.07,3,4.4,100
-223,West Bengal,Cooch Behar,Cooch Behar Palace,Palace,Friday,Historical,All,0.09,1,4.5,20
-224,West Bengal,Purulia,Ayodhya Hills,Hill,no,Nature,All,0.15,2.5,4.5,0
-225,Odisha,Puri,Jagannath Temple,Temple,no,Religious,All,1,2,4.7,0
-226,Odisha,Konark,Sun Temple,Temple,no,Historical,All,0.83,1.5,4.7,40
-227,Odisha,Bhubaneswar,Lingaraj Temple,Temple,no,Religious,All,0.35,1,4.6,0
-228,Odisha,Rourkela,Khandadhar Waterfall,Waterfall,no,Nature,All,1.2,1.5,4.5,0
-229,Odisha,Cuttack,Barabati Fort,Fort,no,Historical,All,0.13,1,4.5,0
-230,Odisha,Sambalpur,Hirakud Dam,Dam,no,Engineering Marvel,All,0.01,1,4.5,0
-231,Odisha,Chilika,Chilika Lake,Lake,no,Nature,Morning,0.1,2,3.9,0
-232,Odisha,Berhampur,Tara Tarini Temple,Temple,no,Religious,All,0.01,1,4.6,0
-233,Odisha,Keonjhar,Badaghagara Waterfall,Waterfall,no,Nature,Morning,0.018,1,4.3,0
-234,Odisha,Balasore,Chandipur Beach,Beach,no,Recreational,Morning,0.014,1.5,4.2,0
-235,Odisha,Kendujhar,Sanaghagara Waterfall,Waterfall,no,Nature,All,0.055,1,4.4,0
-236,Tamil Nadu,Chennai,Marina Beach,Beach,no,Recreational,Morning,0.1,1.5,3.9,0
-237,Tamil Nadu,Madurai,Meenakshi Amman Temple,Temple,no,Religious,All,0.65,2,4.7,0
-238,Tamil Nadu,Rameswaram,Ramanathaswamy Temple,Temple,no,Religious,All,0.01,1.5,4.6,0
-239,Tamil Nadu,Kanyakumari,Vivekananda Rock Memorial,Memorial,no,Historical,Morning,0.47,1,4.6,20
-240,Tamil Nadu,Ooty,Ooty Lake,Lake,no,Recreational,Morning,0.61,1,4.1,10
-241,Tamil Nadu,Coimbatore,Marudamalai Temple,Temple,no,Religious,All,0.3,1,4.7,0
-242,Tamil Nadu,Kodaikanal,Kodaikanal Lake,Lake,no,Recreational,Morning,0.1,2,3.9,0
-243,Tamil Nadu,Thanjavur,Brihadeeswarar Temple,Temple,no,Religious,All,0.35,1.5,4.8,0
-244,Tamil Nadu,Mahabalipuram,Shore Temple,Temple,no,Historical,All,0.09,1,4.6,40
-245,Tamil Nadu,Yercaud,Yercaud Lake,Lake,no,Recreational,Morning,0.019,1,4.2,0
-246,Tamil Nadu,Tirunelveli,Nellaiappar Temple,Temple,no,Religious,All,0.16,1,4.6,0
-247,Tamil Nadu,Chidambaram,Nataraja Temple,Temple,no,Religious,All,0.28,1,4.7,0
-248,Andhra Pradesh,Vijayawada,Kanaka Durga Temple,Temple,no,Religious,All,0.44,1,4.7,0
-249,Andhra Pradesh,Visakhapatnam,Rishikonda Beach,Beach,no,Recreational,Morning,0.39,1.5,4.5,0
-250,Andhra Pradesh,Srisailam,Mallikarjuna Swamy Temple,Temple,no,Religious,All,0.49,1,4.7,0
-251,Andhra Pradesh,Rajahmundry,Papikondalu,Hill,no,Nature,All,0.032,2,4.3,0
-252,Andhra Pradesh,Anantapur,Lepakshi,Site,no,Historical,All,0.075,1.5,4.6,0
-253,Andhra Pradesh,Kurnool,Belum Caves,Cave,no,Natural Wonder,Afternoon,0.11,1.5,4.4,65
-254,Andhra Pradesh,Amravati,Amaravathi Temple,Temple,no,Religious,All,0.041,1,4.7,0
-255,Andhra Pradesh,Guntur,Uppalapadu Bird Sanctuary,Bird Sanctuary,no,Wildlife,All,0.7,1,4.4,10
-256,Andhra Pradesh,Kadapa,Gandikota Fort,Fort,no,Historical,Morning,0.015,1.5,4.5,0
-257,Andhra Pradesh,Puttaparthi,Prasanthi Nilayam,Spiritual Center,no,Religious,All,0.12,1,4.7,0
-258,Andhra Pradesh,Vizianagaram,Simhachalam Temple,Temple,no,Religious,All,0.59,1,4.7,0
-259,Andhra Pradesh,Visakhapatnam,Kailasagiri,Hill,no,Recreational,All,0.019,2,4.5,0
-260,Andhra Pradesh,Visakhapatnam,Submarine Museum,Museum,no,Historical,All,0.49,1,4.6,40
-261,Andhra Pradesh,Visakhapatnam,Borra Caves,Cave,no,Natural Wonder,Afternoon,0.31,2,4.5,60
-262,Andhra Pradesh,Visakhapatnam,War Memorial,War Memorial,no,Historical,All,0.059,1,4.6,0
-263,Andhra Pradesh,Visakhapatnam,Indira Gandhi Zoological Park,Zoo,Monday,Wildlife,Afternoon,0.25,2,4.1,20
-264,Andhra Pradesh,Visakhapatnam,Matsyadarshini Aquarium,Aquarium,no,Recreational,All,0.03,1,3.8,20
-265,Andhra Pradesh,Visakhapatnam,Visakha Museum,Museum,no,Cultural,All,0.065,1,4.3,10
-266,Sikkim,Gangtok,Nathula Pass,Hill,no,Historical,Afternoon,0.15,2,4.3,20
-267,Sikkim,Pelling,Pemayangtse Monastery,Monastery,no,Religious,Morning,0.015,1,4.6,20
-268,Sikkim,Namchi,Char Dham,Religious Complex,no,Religious,All,0.12,2,4.7,50
-269,Sikkim,Gangtok,Rumtek Monastery,Monastery,no,Religious,Morning,0.035,1,4.6,10
-270,Sikkim,Ravangla,Buddha Park,Park,no,Cultural,All,0.1,1,4.8,50
-271,Sikkim,Gangtok,Baba Harbhajan Singh Temple,Temple,no,Religious,All,0.075,1,4.7,0
-272,Sikkim,Gangtok,Tsomgo Lake,Lake,no,Nature,Morning,0.15,2,4.5,0
-273,Assam,Guwahati,Kamakhya Temple,Temple,no,Religious,All,0.21,2,4.6,0
-274,Assam,Kaziranga,Kaziranga National Park,National Park,no,Wildlife,Morning,0.068,3,4.5,650
-275,Assam,Guwahati,Umananda Island,Island,no,Nature,Morning,0.01,1,4.1,0
-276,Assam,Sivasagar,Sivasagar Sivadol,Temple,no,Historical,All,0.065,1,4.7,0
-277,Assam,Majuli,Majuli Island,River Island,no,Cultural,Morning,0.01,2,4.7,0
-278,Assam,Manas,Manas National Park,National Park,no,Wildlife,Morning,0.19,3,4.6,500
-279,Assam,Hajo,Hayagriva Madhava Temple,Temple,no,Religious,All,0.9,1,4.5,0
-280,Assam,Guwahati,Pobitora Wildlife Sanctuary,Wildlife Sanctuary,no,Wildlife,All,0.037,2,4.4,500
-281,Arunachal Pradesh,Tawang,Tawang Monastery,Monastery,no,Religious,Morning,0.032,2,4.7,0
-282,Tripura,Agartala,Ujjayanta Palace,Palace,Monday,Historical,All,0.035,1.5,4.5,10
-283,Tripura,Dumboor,Dumboor Lake,Lake,no,Nature,Morning,0.01,1,4.5,0
-284,Tripura,Unakoti,Unakoti Rock Carvings,Rock Carvings,no,Historical,Morning,0.025,1.5,4.5,20
-285,Chhattisgarh,Bastar,Chitrakote Falls,Waterfall,no,Nature,Morning,0.19,1.5,4.6,0
-286,Nagaland,Dzükou Valley,Dzükou Valley,Valley,no,Trekking,Afternoon,0.01,3,4.7,0
-287,Puducherry,Puducherry,Promenade Beach,Beach,no,Recreational,Morning,0.09,1,4.5,0
-288,Puducherry,Auroville,Auroville,Township,no,Cultural,All,0.035,2,4.1,0
-289,Puducherry,Puducherry,Paradise Beach,Beach,no,Recreational,Morning,0.015,1,4.5,200
-290,Andaman and Nicobar Islands,Port Blair,Cellular Jail,Landmark,Monday,Historical,Afternoon,0.12,1.5,4.7,30
-291,Andaman and Nicobar Islands,Havelock Island,Radhanagar Beach,Beach,no,Nature,Morning,0.09,1,4.8,0
-292,Andaman and Nicobar Islands,Neil Island,Bharatpur Beach,Beach,no,Nature,Morning,0.04,1,4.5,0
-293,Andaman and Nicobar Islands,Baratang Island,Limestone Caves,Natural Feature,no,Nature,Morning,0.015,1.5,4.4,250
-294,Daman and Diu,Diu,Naida Caves,Cave,no,Nature,Afternoon,0.6,1,4.5,0
-295,Daman and Diu,Diu,Diu Fort,Fort,no,Historical,Afternoon,1.2,1.5,4.6,0
-296,Jharkhand,Deoghar,Baba Baidyanath Temple,Temple,no,Religious,All,1.8,1,4.7,0
-297,Jharkhand,Ranchi,Pahari Mandir,Temple,no,Religious,All,0.13,1,4.6,0
-298,Bihar,Bodh Gaya,Mahabodhi Temple,Temple,no,Religious,All,0.2,1.5,4.7,0
-299,Bihar,Patna,Sanjay Gandhi Biological Park,Zoo,no,Wildlife,All,0.5,2.5,4.3,30
-300,Bihar,Patna,Takhat Shri Harimandir Ji Patna Sahib,Gurudwara,no,Religious,All,0.25,1,4.7,0
-301,Bihar,Patna,Budhha Smriti Park,Park,no,Cultural,All,0.31,1,4.4,10
-302,Haryana,Gurugram,Kingdom of Dreams,Entertainment,Monday,Entertainment,Afternoon,0.3,3,4.4,1100
-303,Haryana,Gurugram,Ambience Mall,Mall,no,Shopping,Afternoon,1.2,2,4.6,0
-304,Haryana,Gurugram,DLF CyberHub,Commercial Complex,no,Entertainment,Afternoon,0.71,2,4.7,0
-305,Delhi,New Delhi,Gurudwara Bangla Sahib,Gurudwara,no,Religious,All,1.05,1,4.8,0
-306,Uttarakhand,Kedarnath,Kedarnath,Temple,no,Religious,All,2,1.5,4.8,0
-307,Uttar Pradesh,Noida,DLF Mall of India,Mall,no,Shopping,All,1.5,2,4.6,0
-308,Uttar Pradesh,Greater Noida,The Grand Venice Mall,Mall,no,Shopping,All,0.45,2,4.2,0
-309,Karnataka,Bengaluru,Wonderla Amusement Park,Amusement Park,no,Entertainment,All,0.95,4,4.5,890
-310,Odisha,Bhubaneswar,Nandankanan Zoological Park,Zoo,Monday,Wildlife,Afternoon,0.81,3,4.4,50
-311,Karnataka,Bengaluru,Orion Mall,Mall,no,Shopping,All,1.8,2,4.5,0
-312,Telangana,Hyderabad,Inorbit Mall Cyberabad,Mall,no,Shopping,All,1.2,2,4.5,0
-313,Delhi,New Delhi,Jama Masjid,Mosque,no,Historical,All,0.49,1,4.5,0
-314,Tamil Nadu,Rameswaram,Ramanathaswamy Temple,Temple,no,Religious,All,0.1,1.5,4.7,0
-315,Uttar Pradesh,Greater Noida,Buddh International Circuit,Race Track,Sunday,Sports,All,7.4,2,4.6,1500
-316,Uttar Pradesh,Lucknow,Phoenix Palassio,Mall,no,Shopping,All,0.35,2,4.6,0
-317,Kerala,Kochi,LuLu International Shopping Mall,Mall,no,Shopping,All,1.9,3,4.6,0
-318,Delhi,New Delhi,Rail Museum,Museum,Monday,Cultural,Morning,0.24,2,4.4,50
-319,Meghalaya,Cherrapunji,Living Root Bridge,Natural Feature,no,Nature,Morning,0.06,2,4.6,0
-320,Gujarat,Gandhinagar,Akshardham,Temple,Monday,Religious,All,0.18,3,4.6,0
-321,Uttar Pradesh,Agra,Agra Fort,Fort,no,Historical,Afternoon,1.3,2,4.5,40
-322,Madhya Pradesh,Bhopal,Madhya Pradesh Tribal Museum,Museum,Monday,Cultural,All,0.15,2,4.7,10
-323,Rajasthan,Jaipur,City Palace,Palace,no,Historical,Morning,0.51,2,4.4,200
-324,Rajasthan,Jaipur,Albert Hall Museum,Museum,no,Historical,All,0.63,2,4.5,200
+201,Ladakh,Nubra Valley,Nubra Valley,Valley,no,Nature,All,0.1,2,4.5,0
+202,Ladakh,Kargil,Kargil War Memorial,War Memorial,no,Historical,All,0.011,1,4.8,0
+203,Ladakh,Diskit,Diskit Monastery,Monastery,no,Religious,Morning,0.015,1,4.7,20
+204,Jammu and Kashmir,Kishtwar,Kishtwar National Park,National Park,no,Wildlife,All,0.01,3,4.3,100
+205,Ladakh,Hemis,Hemis National Park,National Park,no,Wildlife,All,0.02,4,4.4,20
+206,Ladakh,Dras,Dras War Memorial,War Memorial,no,Historical,All,0.012,1,4.8,0
+207,Ladakh,Leh,Magnetic Hill,Gravity Hill,no,Nature,All,0.1,0.5,3.7,0
+208,Ladakh,Leh,Khardung La Pass,Hill,no,Adventure,Afternoon,0.05,1,4.5,0
+209,Ladakh,Leh,Thiksey Monastery,Monastery,no,Religious,All,0.05,1.5,4.7,30
+210,Uttar Pradesh,Vrindavan,Prem Mandir,Temple,no,Religious,Evening,0.49,1.5,4.8,0
+211,Uttar Pradesh,Porbandar,Kirti Mandir,Memorial,no,Historical,Morning,0.03,1,4.8,0
+212,Uttar Pradesh,Mathura,Nand Gaon,Village,no,Cultural,Morning,0.01,1,4.1,0
+213,Uttar Pradesh,Mathura,Barsana Mandir,Temple,no,Religious,Morning,0.1,1,4.8,0
+214,West Bengal,Darjeeling,Tiger Hill,Sunrise Point,no,Nature,All,0.025,1,4.5,0
+215,West Bengal,Siliguri,Jaldapara National Park,Wildlife Sanctuary,no,Wildlife,All,0.035,3,4.4,250
+216,West Bengal,Sundarbans,Sundarbans National Park,National Park,no,Wildlife,All,0.065,4,4.4,60
+217,West Bengal,Digha,Digha Beach,Beach,no,Recreational,Morning,0.09,1.5,4.5,0
+218,West Bengal,Murshidabad,Hazarduari Palace,Palace,Friday,Historical,Morning,0.18,1.5,4.5,10
+219,West Bengal,Bolpur,Kankalitala Temple,Temple,no,Religious,All,0.045,0.5,4.7,0
+220,West Bengal,Hooghly,Hangseswari Temple,Temple,no,Architectural,All,0.07,0.5,4.6,0
+221,West Bengal,Jalpaiguri,Gorumara National Park,National Park,no,Wildlife,All,0.07,3,4.4,100
+222,West Bengal,Cooch Behar,Cooch Behar Palace,Palace,Friday,Historical,All,0.09,1,4.5,20
+223,West Bengal,Purulia,Ayodhya Hills,Hill,no,Nature,All,0.15,2.5,4.5,0
+224,Odisha,Puri,Jagannath Temple,Temple,no,Religious,All,1,2,4.7,0
+225,Odisha,Konark,Sun Temple,Temple,no,Historical,All,0.83,1.5,4.7,40
+226,Odisha,Bhubaneswar,Lingaraj Temple,Temple,no,Religious,All,0.35,1,4.6,0
+227,Odisha,Rourkela,Khandadhar Waterfall,Waterfall,no,Nature,All,1.2,1.5,4.5,0
+228,Odisha,Cuttack,Barabati Fort,Fort,no,Historical,All,0.13,1,4.5,0
+229,Odisha,Sambalpur,Hirakud Dam,Dam,no,Engineering Marvel,All,0.01,1,4.5,0
+230,Odisha,Chilika,Chilika Lake,Lake,no,Nature,Morning,0.1,2,3.9,0
+231,Odisha,Berhampur,Tara Tarini Temple,Temple,no,Religious,All,0.01,1,4.6,0
+232,Odisha,Keonjhar,Badaghagara Waterfall,Waterfall,no,Nature,Morning,0.018,1,4.3,0
+233,Odisha,Balasore,Chandipur Beach,Beach,no,Recreational,Morning,0.014,1.5,4.2,0
+234,Odisha,Kendujhar,Sanaghagara Waterfall,Waterfall,no,Nature,All,0.055,1,4.4,0
+235,Tamil Nadu,Chennai,Marina Beach,Beach,no,Recreational,Morning,0.1,1.5,3.9,0
+236,Tamil Nadu,Madurai,Meenakshi Amman Temple,Temple,no,Religious,All,0.65,2,4.7,0
+237,Tamil Nadu,Rameswaram,Ramanathaswamy Temple,Temple,no,Religious,All,0.01,1.5,4.6,0
+238,Tamil Nadu,Kanyakumari,Vivekananda Rock Memorial,Memorial,no,Historical,Morning,0.47,1,4.6,20
+239,Tamil Nadu,Ooty,Ooty Lake,Lake,no,Recreational,Morning,0.61,1,4.1,10
+240,Tamil Nadu,Coimbatore,Marudamalai Temple,Temple,no,Religious,All,0.3,1,4.7,0
+241,Tamil Nadu,Kodaikanal,Kodaikanal Lake,Lake,no,Recreational,Morning,0.1,2,3.9,0
+242,Tamil Nadu,Thanjavur,Brihadeeswarar Temple,Temple,no,Religious,All,0.35,1.5,4.8,0
+243,Tamil Nadu,Mahabalipuram,Shore Temple,Temple,no,Historical,All,0.09,1,4.6,40
+244,Tamil Nadu,Yercaud,Yercaud Lake,Lake,no,Recreational,Morning,0.019,1,4.2,0
+245,Tamil Nadu,Tirunelveli,Nellaiappar Temple,Temple,no,Religious,All,0.16,1,4.6,0
+246,Tamil Nadu,Chidambaram,Nataraja Temple,Temple,no,Religious,All,0.28,1,4.7,0
+247,Andhra Pradesh,Vijayawada,Kanaka Durga Temple,Temple,no,Religious,All,0.44,1,4.7,0
+248,Andhra Pradesh,Visakhapatnam,Rishikonda Beach,Beach,no,Recreational,Morning,0.39,1.5,4.5,0
+249,Andhra Pradesh,Srisailam,Mallikarjuna Swamy Temple,Temple,no,Religious,All,0.49,1,4.7,0
+250,Andhra Pradesh,Rajahmundry,Papikondalu,Hill,no,Nature,All,0.032,2,4.3,0
+251,Andhra Pradesh,Anantapur,Lepakshi,Site,no,Historical,All,0.075,1.5,4.6,0
+252,Andhra Pradesh,Kurnool,Belum Caves,Cave,no,Natural Wonder,Afternoon,0.11,1.5,4.4,65
+253,Andhra Pradesh,Amravati,Amaravathi Temple,Temple,no,Religious,All,0.041,1,4.7,0
+254,Andhra Pradesh,Guntur,Uppalapadu Bird Sanctuary,Bird Sanctuary,no,Wildlife,All,0.7,1,4.4,10
+255,Andhra Pradesh,Kadapa,Gandikota Fort,Fort,no,Historical,Morning,0.015,1.5,4.5,0
+256,Andhra Pradesh,Puttaparthi,Prasanthi Nilayam,Spiritual Center,no,Religious,All,0.12,1,4.7,0
+257,Andhra Pradesh,Vizianagaram,Simhachalam Temple,Temple,no,Religious,All,0.59,1,4.7,0
+258,Andhra Pradesh,Visakhapatnam,Kailasagiri,Hill,no,Recreational,All,0.019,2,4.5,0
+259,Andhra Pradesh,Visakhapatnam,Submarine Museum,Museum,no,Historical,All,0.49,1,4.6,40
+260,Andhra Pradesh,Visakhapatnam,Borra Caves,Cave,no,Natural Wonder,Afternoon,0.31,2,4.5,60
+261,Andhra Pradesh,Visakhapatnam,War Memorial,War Memorial,no,Historical,All,0.059,1,4.6,0
+262,Andhra Pradesh,Visakhapatnam,Indira Gandhi Zoological Park,Zoo,Monday,Wildlife,Afternoon,0.25,2,4.1,20
+263,Andhra Pradesh,Visakhapatnam,Matsyadarshini Aquarium,Aquarium,no,Recreational,All,0.03,1,3.8,20
+264,Andhra Pradesh,Visakhapatnam,Visakha Museum,Museum,no,Cultural,All,0.065,1,4.3,10
+265,Sikkim,Gangtok,Nathula Pass,Hill,no,Historical,Afternoon,0.15,2,4.3,20
+266,Sikkim,Pelling,Pemayangtse Monastery,Monastery,no,Religious,Morning,0.015,1,4.6,20
+267,Sikkim,Namchi,Char Dham,Religious Complex,no,Religious,All,0.12,2,4.7,50
+268,Sikkim,Gangtok,Rumtek Monastery,Monastery,no,Religious,Morning,0.035,1,4.6,10
+269,Sikkim,Ravangla,Buddha Park,Park,no,Cultural,All,0.1,1,4.8,50
+270,Sikkim,Gangtok,Baba Harbhajan Singh Temple,Temple,no,Religious,All,0.075,1,4.7,0
+271,Sikkim,Gangtok,Tsomgo Lake,Lake,no,Nature,Morning,0.15,2,4.5,0
+272,Assam,Guwahati,Kamakhya Temple,Temple,no,Religious,All,0.21,2,4.6,0
+273,Assam,Kaziranga,Kaziranga National Park,National Park,no,Wildlife,Morning,0.068,3,4.5,650
+274,Assam,Guwahati,Umananda Island,Island,no,Nature,Morning,0.01,1,4.1,0
+275,Assam,Sivasagar,Sivasagar Sivadol,Temple,no,Historical,All,0.065,1,4.7,0
+276,Assam,Majuli,Majuli Island,River Island,no,Cultural,Morning,0.01,2,4.7,0
+277,Assam,Manas,Manas National Park,National Park,no,Wildlife,Morning,0.19,3,4.6,500
+278,Assam,Hajo,Hayagriva Madhava Temple,Temple,no,Religious,All,0.9,1,4.5,0
+279,Assam,Guwahati,Pobitora Wildlife Sanctuary,Wildlife Sanctuary,no,Wildlife,All,0.037,2,4.4,500
+280,Arunachal Pradesh,Tawang,Tawang Monastery,Monastery,no,Religious,Morning,0.032,2,4.7,0
+281,Tripura,Agartala,Ujjayanta Palace,Palace,Monday,Historical,All,0.035,1.5,4.5,10
+282,Tripura,Dumboor,Dumboor Lake,Lake,no,Nature,Morning,0.01,1,4.5,0
+283,Tripura,Unakoti,Unakoti Rock Carvings,Rock Carvings,no,Historical,Morning,0.025,1.5,4.5,20
+284,Chhattisgarh,Bastar,Chitrakote Falls,Waterfall,no,Nature,Morning,0.19,1.5,4.6,0
+285,Nagaland,Dzükou Valley,Dzükou Valley,Valley,no,Trekking,Afternoon,0.01,3,4.7,0
+286,Puducherry,Puducherry,Promenade Beach,Beach,no,Recreational,Morning,0.09,1,4.5,0
+287,Puducherry,Auroville,Auroville,Township,no,Cultural,All,0.035,2,4.1,0
+288,Puducherry,Puducherry,Paradise Beach,Beach,no,Recreational,Morning,0.015,1,4.5,200
+289,Andaman and Nicobar Islands,Port Blair,Cellular Jail,Landmark,Monday,Historical,Afternoon,0.12,1.5,4.7,30
+290,Andaman and Nicobar Islands,Havelock Island,Radhanagar Beach,Beach,no,Nature,Morning,0.09,1,4.8,0
+291,Andaman and Nicobar Islands,Neil Island,Bharatpur Beach,Beach,no,Nature,Morning,0.04,1,4.5,0
+292,Andaman and Nicobar Islands,Baratang Island,Limestone Caves,Natural Feature,no,Nature,Morning,0.015,1.5,4.4,250
+293,Daman and Diu,Diu,Naida Caves,Cave,no,Nature,Afternoon,0.6,1,4.5,0
+294,Daman and Diu,Diu,Diu Fort,Fort,no,Historical,Afternoon,1.2,1.5,4.6,0
+295,Jharkhand,Deoghar,Baba Baidyanath Temple,Temple,no,Religious,All,1.8,1,4.7,0
+296,Jharkhand,Ranchi,Pahari Mandir,Temple,no,Religious,All,0.13,1,4.6,0
+297,Bihar,Bodh Gaya,Mahabodhi Temple,Temple,no,Religious,All,0.2,1.5,4.7,0
+298,Bihar,Patna,Sanjay Gandhi Biological Park,Zoo,no,Wildlife,All,0.5,2.5,4.3,30
+299,Bihar,Patna,Takhat Shri Harimandir Ji Patna Sahib,Gurudwara,no,Religious,All,0.25,1,4.7,0
+300,Bihar,Patna,Budhha Smriti Park,Park,no,Cultural,All,0.31,1,4.4,10
+301,Haryana,Gurugram,Kingdom of Dreams,Entertainment,Monday,Entertainment,Afternoon,0.3,3,4.4,1100
+302,Haryana,Gurugram,Ambience Mall,Mall,no,Shopping,Afternoon,1.2,2,4.6,0
+303,Haryana,Gurugram,DLF CyberHub,Commercial Complex,no,Entertainment,Afternoon,0.71,2,4.7,0
+304,Delhi,New Delhi,Gurudwara Bangla Sahib,Gurudwara,no,Religious,All,1.05,1,4.8,0
+305,Uttarakhand,Kedarnath,Kedarnath,Temple,no,Religious,All,2,1.5,4.8,0
+306,Uttar Pradesh,Noida,DLF Mall of India,Mall,no,Shopping,All,1.5,2,4.6,0
+307,Uttar Pradesh,Greater Noida,The Grand Venice Mall,Mall,no,Shopping,All,0.45,2,4.2,0
+308,Karnataka,Bengaluru,Wonderla Park,Amusement Park,no,Entertainment,All,0.95,4,4.5,890
+309,Odisha,Bhubaneswar,Nandankanan Zoological Park,Zoo,Monday,Wildlife,Afternoon,0.81,3,4.4,50
+310,Karnataka,Bengaluru,Orion Mall,Mall,no,Shopping,All,1.8,2,4.5,0
+311,Telangana,Hyderabad,Inorbit Mall Cyberabad,Mall,no,Shopping,All,1.2,2,4.5,0
+312,Delhi,New Delhi,Jama Masjid,Mosque,no,Historical,All,0.49,1,4.5,0
+313,Uttar Pradesh,Greater Noida,Buddh International Circuit,Race Track,Sunday,Sports,All,7.4,2,4.6,1500
+314,Uttar Pradesh,Lucknow,Phoenix Palassio,Mall,no,Shopping,All,0.35,2,4.6,0
+315,Kerala,Kochi,LuLu International Shopping Mall,Mall,no,Shopping,All,1.9,3,4.6,0
+316,Delhi,New Delhi,Rail Museum,Museum,Monday,Cultural,Morning,0.24,2,4.4,50
+317,Meghalaya,Cherrapunji,Living Root Bridge,Natural Feature,no,Nature,Morning,0.06,2,4.6,0
+318,Gujarat,Gandhinagar,Akshardham,Temple,Monday,Religious,All,0.18,3,4.6,0
+319,Uttar Pradesh,Agra,Agra Fort,Fort,no,Historical,Afternoon,1.3,2,4.5,40
+320,Madhya Pradesh,Bhopal,Madhya Pradesh Tribal Museum,Museum,Monday,Cultural,All,0.15,2,4.7,10
+321,Rajasthan,Jaipur,CityPalace,Palace,no,Historical,Morning,0.51,2,4.4,200
+322,Rajasthan,Jaipur,Albert Hall Museum,Museum,no,Historical,All,0.63,2,4.5,200
