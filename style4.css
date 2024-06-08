@@ -1,0 +1,121 @@
+body{
+    background-image: url(caaa.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    /* background-blend-mode: overlay; */
+    background-color: rgba(0,0,0,8);
+}
+.heading{
+    text-align: center;
+    font-family: "Caveat", cursive;
+    font-size: 70px;
+  font-optical-sizing: auto;
+  
+}
+
+.container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+h2{
+    text-align: center;
+}
+.box{
+    height: 550px;
+    width: 800px;
+    background-color: rgb(223, 211, 197);  
+    overflow-wrap: break-word;
+    display:grid;
+    padding: 20px;
+    grid-template-columns: auto auto;
+    column-gap: 10px;
+    row-gap:10px
+}
+.inner-box1,.inner-box2,.inner-box3,.inner-box4{
+    background-color: rgb(255, 254, 250);
+    height: 250px;
+    padding: 10px;
+    overflow-wrap: break-word;
+    
+}
+#image{
+    position: absolute;
+    height: 220px;
+    width: 230px;    
+    top:160px;
+    left:20px;
+}
+#image1 {
+    position: absolute;
+    height: 220px;
+    width: 220px;
+    top: 10px;
+    right: 60px;
+  }
+ #image4{
+    position: absolute;
+    height: 220px;
+    width: 300px;
+    top:320px;
+    right:50px
+ } 
+ #image3{
+    position: absolute;
+    height: 150px;
+    width: 200px;
+    top:520px;
+    left: -18px;
+ }
+ #image2{
+    position: absolute;
+    height: 90px;
+    width: 160px;
+    top:50px;
+    right:350px
+}
+#image5{
+    position: absolute;
+    height: 150px;
+    width: 200px;
+    top:-10px;
+    left:280px;
+}
+
+@media(max-width:1440px){
+    .box{
+        height: 550px;
+        width: 600px;
+        background-color: rgb(223, 211, 197);  
+    }
+    #image2{
+        position: absolute;
+        height: 90px;
+        width: 160px;
+        top:10px;
+        right:350px
+    }
+    #image3{
+        position: absolute;
+        height: 150px;
+        width: 200px;
+        top:600px;
+        left:20px
+     }
+    #image4{
+        position: absolute;
+        height: 170px;
+        width: 220px;
+        top:370px;
+        right:30px
+     }
+     #image5{
+        position: absolute;
+        height: 150px;
+        width: 200px;
+        top:-10px;
+        left:150px;
+    }
+}
