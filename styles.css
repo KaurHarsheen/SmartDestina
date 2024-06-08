@@ -5,7 +5,7 @@
     
 }
 body{
-    background-color:rgb(248, 249, 251);
+  background-color: rgba(251, 240, 208, 0.438);
 }
 h1,form{
     /* display: flex; */
@@ -30,6 +30,7 @@ h1{
   display: flex;
   width: 100%;
   margin-bottom: 15px; 
+  
 }
 
 .label:after{
