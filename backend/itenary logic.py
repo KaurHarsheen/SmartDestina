@@ -89,7 +89,6 @@ while len(al)!=0:
           it[count]+=[al.pop()]
 output=[]  
 count=0
-print(it)
 for k in it:
      out=[]
      count+=1 
