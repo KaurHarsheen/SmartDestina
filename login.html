@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'styles.css' %}">
+    <script src="{% static 'script.js' %}"></script>
+    <script src="https://kit.fontawesome.com/bb55a3add2.js" crossorigin="anonymous"></script>
+    <title>Form Validation</title>
+</head>
+<body>
+    <div class="heading-container">
+        <h1>Form Validation!</h1>
+    </div>
+    <section class="form-container">
+        <form name="RegForm" id="form" method="post" action="{% url 'login' %}">
+            {% csrf_token %}
+            <div class="form-group">
+                <label for="name" class="label">Your Full Name</label><br>
+                <i class="fa-solid fa-user icon"></i>
+                <input type="text" name="name" class="input-field" id="username" placeholder="abc(Atleast 5 characters)" required>
+                <small></small>
+            </div>
+            <div class="form-group">
+                <label for="email" class="label">Your Email-id</label><br>
+                <i class="fa-solid fa-envelope icon"></i>
+                <input type="email" name="mail" id="email" class="input-field" placeholder="abc@gmail.com" required>
+                <small></small>
+            </div>
+            <div class="form-group">
+                <label for="phone" class="label">Your Phone no.</label><br>
+                <i class="fa-solid fa-phone icon"></i>
+                <input type="tel" name="phoneno" id="phoneno" class="input-field" placeholder="Without country code" required>
+                <small></small>
+            </div>
+            <div class="form-group">
+                <label for="password" class="label">Password</label><br>
+                <i class="fa-solid fa-lock icon"></i>
+                <input type="password" name="pass" id="password" class="input-field" placeholder="Atleast 8 characters" required>
+                <small></small>
+            </div>
+            <div class="form-group">
+                <label for="cpassword" class="label">Confirm Password</label><br>
+                <i class="fa-solid fa-lock icon"></i>
+                <input type="password" name="cpass" id="confirm-password" class="input-field" placeholder="Atleast 8 characters" required>
+                <small></small>
+            </div>
+            <input type="submit" class="submit" id="button" value="Sign Up">
+        </form>
+    </section>
+</body>
+</html>
