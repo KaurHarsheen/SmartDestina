@@ -2,9 +2,9 @@ import mysql.connector
 import random
 import datetime
 
-state = 'delhi'
-city= 'delhi'
-arrival="07-22-2024"#month,day,year
+state = 'gujarat'
+city= 'ahmedabad'
+arrival="07-24-2024" #month,day,year
 departure="07-25-2024"
 l=arrival.split('-')
 date=datetime.datetime(int(l[2]),int(l[0]),int(l[1]))#year,month,day
@@ -51,14 +51,14 @@ eve=[]
 noon=[]
 al=[]
 for i in places:
-     if i[7].lower()=='morning':
+     if (i[7].lower()).strip()=='morning':
           mrng+=[i]
-     elif i[7].lower()=='afternoon':
+     elif (i[7].lower()).strip()=='afternoon':
           noon+=[i]
-     elif i[7].lower()=='evening':
-          eve+=[i]
-     elif i[7].lower()=='all':
-          al+=[i]
+     elif (i[7].lower()).strip()=='evening':    
+          eve+=[i]      
+     elif (i[7].lower()).strip()=='all':
+          al+=[i]          
 random.shuffle(mrng)
 random.shuffle(eve)
 random.shuffle(noon)
@@ -89,6 +89,7 @@ while len(al)!=0:
           it[count]+=[al.pop()]
 output=[]  
 count=0
+print(it)
 for k in it:
      out=[]
      count+=1 
@@ -115,8 +116,65 @@ for f in output:
      for s in f:
           print()
           print("Place:",[s][0][0][0])
-          print("Best time to visit:",[s][0][0][1])
-          print("Time to spend:",[s][0][0][2])
+          if ([s][0][0][1].lower()).strip()=='all':
+               print("Best time to visit:",[s][0][0][1])
+               if date.month in range(5,10):
+                    if(date.isoweekday()+count in range(1,5+1)):
+                         if[s][0][0][8]<[s][0][0][14]:
+                              print("Footfall in morning: LOW")
+                         else:
+                              print("Footfall in morning: HIGH")
+                         if[s][0][0][9]<[s][0][0][14]:
+                              print("Footfall in afternoon: LOW")
+                         else:
+                              print("Footfall in afternoon: HIGH")
+                         if[s][0][0][10]<[s][0][0][14]:
+                              print("Footfall in evening: LOW")
+                         else:
+                              print("Footfall in evening: HIGH")
+                    else:
+                         if[s][0][0][11]<[s][0][0][14]:
+                              print("Footfall in morning: LOW")
+                         else:
+                              print("Footfall in morning: HIGH")
+                         if[s][0][0][12]<[s][0][0][14]:
+                              print("Footfall in afternoon: LOW")
+                         else:
+                              print("Footfall in afternoon: HIGH")
+                         if[s][0][0][13]<[s][0][0][14]:
+                              print("Footfall in evening: LOW")
+                         else:
+                              print("Footfall in evening: HIGH")
+               else:
+                    if(date.isoweekday()+count in range(1,5+1)):
+                         if[s][0][0][2]<[s][0][0][14]:
+                              print("Footfall in morning: LOW")
+                         else:
+                              print("Footfall in morning: HIGH")
+                         if[s][0][0][3]<[s][0][0][14]:
+                              print("Footfall in afternoon: LOW")
+                         else:
+                              print("Footfall in afternoon: HIGH")
+                         if[s][0][0][4]<[s][0][0][14]:
+                              print("Footfall in evening: LOW")
+                         else:
+                              print("Footfall in evening: HIGH")
+                    else:
+                         if[s][0][0][5]<[s][0][0][14]:
+                              print("Footfall in morning: LOW")
+                         else:
+                              print("Footfall in morning: HIGH")
+                         if[s][0][0][5+1]<[s][0][0][14]:
+                              print("Footfall in afternoon: LOW")
+                         else:
+                              print("Footfall in afternoon: HIGH")
+                         if[s][0][0][7]<[s][0][0][14]:
+                              print("Footfall in evening: LOW")
+                         else:
+                              print("Footfall in evening: HIGH")
+          else:
+               print("Best time to visit:",[s][0][0][1])
+          print("Time to spend:",[s][0][0][2],"hours")
           print("Rating:",[s][0][0][3])
           print("Entry Fee:",[s][0][0][4])
      print()
