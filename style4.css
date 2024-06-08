@@ -24,19 +24,19 @@ h2{
     text-align: center;
 }
 .box{
-    height: 550px;
-    width: 800px;
+    height: 470px;
+    width: 600px;
     background-color: rgb(223, 211, 197);  
     overflow-wrap: break-word;
     display:grid;
     padding: 20px;
     grid-template-columns: auto auto;
     column-gap: 10px;
-    row-gap:10px
+    row-gap:10px;
 }
-.inner-box1,.inner-box2,.inner-box3,.inner-box4{
+.inner-box1,.inner-box2{
     background-color: rgb(255, 254, 250);
-    height: 250px;
+    height: 430px;
     padding: 10px;
     overflow-wrap: break-word;
     
@@ -84,11 +84,17 @@ h2{
     left:280px;
 }
 
-@media(max-width:1440px){
+@media (min-width:1169px) and (max-width:1440px){
     .box{
-        height: 550px;
+        height: 470px;
         width: 600px;
         background-color: rgb(223, 211, 197);  
+        overflow-wrap: break-word;
+    display:grid;
+    padding: 20px;
+    
+    
+    row-gap:10px
     }
     #image2{
         position: absolute;
@@ -118,4 +124,59 @@ h2{
         top:-10px;
         left:150px;
     }
+}
+@media (max-width:1168px){
+    .box{
+        height: 550px;
+        width: 600px;
+        background-color: rgb(223, 211, 197);  
+        overflow-wrap: break-word;
+    display:grid;
+    padding: 20px;
+    
+    
+    row-gap:10px
+    }
+    #image{
+        position: absolute;
+        height: 180px;
+        width: 185px;    
+        top:160px;
+        left:20px;
+    }
+    #image1 {
+        position: absolute;
+        height: 180px;
+        width: 180px;
+        top: 10px;
+        right: 60px;
+      }
+    #image2{
+        position: absolute;
+        height: 60px;
+        width: 130px;
+        top:10px;
+        right:350px
+    }
+    #image3{
+        position: absolute;
+        height: 100px;
+        width: 150px;
+        top:600px;
+        left:20px
+     }
+    #image4{
+        position: absolute;
+        height: 140px;
+        width: 190px;
+        top:370px;
+        right:30px
+     }
+     #image5{
+        position: absolute;
+        height: 100px;
+        width: 150px;
+        top:-10px;
+        left:150px;
+}
 }
